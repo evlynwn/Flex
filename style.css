@@ -19,3 +19,18 @@
     box-shadow: 1px 1px 1px rgba(70, 107, 216, 0.715);
     
 }
+.circulosVerdes{
+    width: 100px;
+    height: 200px;
+    background-color: rgb(142, 242, 198);
+    display: flex;
+    justify-content: right ;
+    align-items: center;
+}
+.circulosVerdes div{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(4, 135, 100, 0.691);
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px  rgba(70, 107, 216, 0.715);
+}
