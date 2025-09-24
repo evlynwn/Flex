@@ -3,10 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    height: 100vh;
+}
 .circulo {
     width: 100vw;
-    height: 200px;
-    background-color: rgb(108, 217, 199);
+    height: 20%;
+    background-color: rgb(195, 187, 253);
     display: flex;
     justify-content: right;
     align-items: flex-end;
@@ -14,23 +17,62 @@
 .circulo div{
     width: 100px;
     height: 100px;
-    background-color: rgba(52, 127, 127, 0.658);
+    background-color: rgba(110, 85, 181, 0.816);
     border-radius: 50%;
-    box-shadow: 1px 1px 1px rgba(70, 107, 216, 0.715);
-    
 }
 .circulosVerdes{
-    width: 100px;
-    height: 200px;
-    background-color: rgb(142, 242, 198);
+    width: 100vw;
+    height: 20%;
+    background-color: rgb(170, 244, 199);
     display: flex;
-    justify-content: right ;
+    justify-content: right;
     align-items: center;
 }
 .circulosVerdes div{
     width: 100px;
     height: 100px;
-    background-color: rgba(4, 135, 100, 0.691);
+    background-color: rgb(89, 139, 54);
     border-radius: 50%;
-    box-shadow: 1px 1px 1px  rgba(70, 107, 216, 0.715);
+}
+.circulosAmarelos{
+    width: 100vw;
+    height: 20%;
+    background-color: rgba(251, 207, 223, 0.735);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circulosAmarelos div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(225, 97, 153);
+    border-radius: 50%;
+}
+.circulosLaranjas{
+    width: 100vw;
+    height: 20%;
+    background-color: rgb(255, 227, 148);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.circulosLaranjas div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(251, 255, 2);
+    border-radius: 50%;
+}
+.circulosVermelhos{
+    width: 100vw;
+    height: 20%;
+    background-color: rgb(178, 224, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.circulosVermelhos div{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 91, 177, 0.793);
+    border-radius: 50%;
 }
